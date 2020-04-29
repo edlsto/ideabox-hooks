@@ -13,6 +13,9 @@ label {
 
 input {
   height: 100%;
+  font-size: 1em;
+  outline: none;
+  padding: 0.2em;
 }
 
 .form {
@@ -29,6 +32,8 @@ h2 {
 
 button {
   width: 5em;
-  font-size: 1.5em;
+  font-size: 1em;
   margin-top: 1em;
+  cursor: pointer;
+  padding: 0.3em;
 }
