@@ -36,6 +36,7 @@ const Form = ({ addIdea }) => {
       <div className="input-item">
         <label>Description</label>
         <input
+          className="description"
           placeholder="Description"
           onChange={handleDescriptionChange}
           value={description}
