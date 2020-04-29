@@ -7,7 +7,7 @@ const CardsContainer = ({ ideas }) => {
   const cards = ideas.map((idea) => {
     return <Card title={idea.title} description={idea.description} />;
   });
-  return <div>{cards}</div>;
+  return <div className="cards-container">{cards}</div>;
 };
 
 const mapStateToProps = ({ ideas }) => ({
